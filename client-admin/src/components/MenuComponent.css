@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif,bold 700;
+  }
+@property --rotate {
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+  }
+  
+  :root {
+    --card-height: 105vh;
+    --card-width: calc(var(--card-height));
+  }
+  
+  
+
+    
+
+  @keyframes spin {
+    0% {
+      --rotate: 0deg;
+    }
+    100% {
+      --rotate: 360deg;
+    }
+  }
+  
+.menu {
+    
+
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2rem;
+  }
+
+.float-left{
+    margin: 0px;
+    padding: 0px;
+    list-style:circle;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.float-right{
+  margin: 0px;
+    padding: 0px;
+    list-style:circle;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
